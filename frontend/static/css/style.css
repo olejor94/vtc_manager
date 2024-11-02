@@ -1,1 +1,11 @@
+.form-input {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50;
+}
 
+.btn {
+    @apply px-4 py-2 rounded-md text-white font-semibold;
+}
+
+.btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700;
+}
